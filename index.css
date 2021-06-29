@@ -1,6 +1,6 @@
   .plantContainer {
     display: grid;
-    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px;
+    grid-template-rows: auto;
     /* padding-left: 400px; */
   }
   .one {
@@ -141,6 +141,7 @@
   .tfi{
     grid-column: 3;
     grid-row: 6;
+    margin-left: 5px;
   }
   .ts{
     grid-column: 4;
@@ -161,6 +162,7 @@
   .thirty{
     grid-column: 3;
     grid-row: 7;
+    margin-left: 5px;
   }
   .thrityo{
     grid-column: 4;
@@ -182,6 +184,7 @@
   .thirtyfi{
     grid-column: 3;
     grid-row: 8;
+    margin-left: 5px;
   }
   .thirtysi{
       grid-column: 4;
@@ -190,6 +193,69 @@
   .thirtyse{
     grid-column: 5;
     grid-row: 8;
+  }
+  .thirtye{
+    grid-column: 1;
+    grid-row: 9;
+  }
+  .thirtyn{
+    grid-column: 2;
+    grid-row: 9;
+  }
+  .forty{
+    grid-column: 3;
+    grid-row: 9;
+    margin-left: 5px;
+  }
+  .fortyo{
+    grid-column: 4;
+    grid-row: 9;
+  }
+  .fortyt{
+    grid-column: 5;
+    grid-row: 9;
+  }
+  .fortyth{
+    grid-column: 1;
+    grid-row: 10;
+  }
+  .fortyf{
+    grid-column: 2;
+    grid-row: 10;
+  }
+  .fortyfi{
+    grid-column: 3;
+    grid-row: 10;
+    margin-left: 5px;
+  }
+  .fortys{
+    grid-column: 4;
+    grid-row: 10;
+  }
+  .fortyse{
+    grid-column: 5;
+    grid-row: 10;
+  }
+  .fortye{
+    grid-column: 1;
+    grid-row: 11;
+  }
+  .fortyn{
+    grid-column: 2;
+    grid-row: 11;
+  }
+  .fifty{
+    grid-column: 3;
+    grid-row: 11;
+    margin-left: 5px;
+  }
+  .fiftyo{
+    grid-column: 4;
+    grid-row: 11;
+  }
+  .fiftyt{
+    grid-column: 5;
+    grid-row: 11;
   }
   .topnav{
       border: 4px solid gray;
