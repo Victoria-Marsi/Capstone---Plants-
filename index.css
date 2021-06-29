@@ -14,11 +14,13 @@
     text-align: right;
     border-right: none;
     margin-right: 5px;
+    font-family: 'Patrick Hand', cursive;
   }
   .space{
   border: solid lightgreen 4px;
   border-left: 0px;
   text-align: left;
+  font-family: 'Patrick Hand', cursive;
   }
   .space1{
     border: solid rgb(209, 221, 40) 4px;
@@ -34,6 +36,7 @@
     border-left: 0px;
     border-right: none;
     margin-right: 5px;
+    font-family: 'Patrick Hand', cursive;
   }
   .space2{
     border: solid rgb(209, 221, 40) 4px;
@@ -42,224 +45,274 @@
   .three {
     grid-column: 1;
     grid-row: 2;
-    border: solid gray 2px;
+    border: solid darkslategray 2px;
     border-right: 0px;
+    font-family: 'Patrick Hand', cursive;
   }
   .four {
     grid-column: 2;
     grid-row: 2;
-    border: solid gray 2px;
+    border: solid darkslategray 2px;
     border-left: dotted lightgreen 5px;
+    font-family: 'Patrick Hand', cursive;
   }
   .five {
     grid-column: 3;
     grid-row: 2;
-    border: solid gray 2px;
+    border: solid darkslategray 2px;
     border-right: dotted rgb(209, 221, 40) 5px;
     margin-left: 5px;
+    font-family: 'Patrick Hand', cursive;
   }
   .six{
     grid-column: 4;
     grid-row: 2;
-    border: solid gray 2px;
+    border: solid darkslategray 2px;
     border-right: dotted rgb(209, 221, 40) 5px;
     border-left: 0px;
+    font-family: 'Patrick Hand', cursive;
   }
   .seven{
     grid-column: 5;
     grid-row: 2;
-    border: solid gray 2px;
+    border: solid darkslategray 2px;
     border-left: 0px;
+    font-family: 'Patrick Hand', cursive;
   }
   .eight{
     grid-column: 1;
     grid-row: 3;
+    font-family: 'Patrick Hand', cursive;
   }
   .nine{
     grid-column: 2;
     grid-row: 3;
+    font-family: 'Patrick Hand', cursive;
   }
   .ten{
     grid-column: 3;
     grid-row: 3;
     margin-left: 5px;
+    font-family: 'Patrick Hand', cursive;
   }
   .eleven{
     grid-column: 4;
     grid-row: 3;
+    font-family: 'Patrick Hand', cursive;
   }
   .twelve{
     grid-column: 5;
     grid-row: 3;
+    font-family: 'Patrick Hand', cursive;
   }
   .thirteen{
     grid-column: 1;
     grid-row: 4;
+    font-family: 'Patrick Hand', cursive;
   }
   .fourteen{
     grid-column: 2;
     grid-row: 4;
+    font-family: 'Patrick Hand', cursive;
   }
   .fifteen{
     grid-column: 3;
     grid-row: 4;
     margin-left: 5px;
+    font-family: 'Patrick Hand', cursive;
   }
   .sixteen{
     grid-column: 4;
     grid-row: 4;
+    font-family: 'Patrick Hand', cursive;
   }
   .seventeen{
     grid-column: 5;
     grid-row: 4;
+    font-family: 'Patrick Hand', cursive;
   }
   .eighteen{
     grid-column: 1;
     grid-row: 5;
+    font-family: 'Patrick Hand', cursive;
   }
   .nineteen{
     grid-column: 2;
     grid-row: 5;
+    font-family: 'Patrick Hand', cursive;
   }
   .twenty{
     grid-column: 3;
     grid-row: 5;
     margin-left: 5px;
+    font-family: 'Patrick Hand', cursive;
   }
   .to{
     grid-column: 4;
     grid-row: 5;
+    font-family: 'Patrick Hand', cursive;
   }
   .tt{
     grid-column: 5;
     grid-row: 5;
+    font-family: 'Patrick Hand', cursive;
   }
   .ttr{
     grid-column: 1;
     grid-row: 6;
+    font-family: 'Patrick Hand', cursive;
   }
   .tf{
     grid-column: 2;
     grid-row: 6;
+    font-family: 'Patrick Hand', cursive;
   }
   .tfi{
     grid-column: 3;
     grid-row: 6;
     margin-left: 5px;
+    font-family: 'Patrick Hand', cursive;
   }
   .ts{
     grid-column: 4;
     grid-row: 6;
+    font-family: 'Patrick Hand', cursive;
   }
   .tse{
     grid-column: 5;
     grid-row: 6;
+    font-family: 'Patrick Hand', cursive;
   }
   .te{
     grid-column: 1;
     grid-row: 7;
+    font-family: 'Patrick Hand', cursive;
   }
   .tn{
     grid-column: 2;
     grid-row: 7;
+    font-family: 'Patrick Hand', cursive;
   }
   .thirty{
     grid-column: 3;
     grid-row: 7;
     margin-left: 5px;
+    font-family: 'Patrick Hand', cursive;
   }
   .thrityo{
     grid-column: 4;
     grid-row: 7;
+    font-family: 'Patrick Hand', cursive;
   }
     
   .thirtyt{
     grid-column: 5;
     grid-row: 7;
+    font-family: 'Patrick Hand', cursive;
   }
   .thirtyth{
     grid-column: 1;
     grid-row: 8;
+    font-family: 'Patrick Hand', cursive;
     }
   .thirtyfo{
     grid-column: 2;
     grid-row: 8;
+    font-family: 'Patrick Hand', cursive;
   }
   .thirtyfi{
     grid-column: 3;
     grid-row: 8;
     margin-left: 5px;
+    font-family: 'Patrick Hand', cursive;
   }
   .thirtysi{
       grid-column: 4;
       grid-row: 8;
+      font-family: 'Patrick Hand', cursive;
   }
   .thirtyse{
     grid-column: 5;
     grid-row: 8;
+    font-family: 'Patrick Hand', cursive;
   }
   .thirtye{
     grid-column: 1;
     grid-row: 9;
+    font-family: 'Patrick Hand', cursive;
   }
   .thirtyn{
     grid-column: 2;
     grid-row: 9;
+    font-family: 'Patrick Hand', cursive;
   }
   .forty{
     grid-column: 3;
     grid-row: 9;
     margin-left: 5px;
+    font-family: 'Patrick Hand', cursive;
   }
   .fortyo{
     grid-column: 4;
     grid-row: 9;
+    font-family: 'Patrick Hand', cursive;
   }
   .fortyt{
     grid-column: 5;
     grid-row: 9;
+    font-family: 'Patrick Hand', cursive;
   }
   .fortyth{
     grid-column: 1;
     grid-row: 10;
+    font-family: 'Patrick Hand', cursive;
   }
   .fortyf{
     grid-column: 2;
     grid-row: 10;
+    font-family: 'Patrick Hand', cursive;
   }
   .fortyfi{
     grid-column: 3;
     grid-row: 10;
     margin-left: 5px;
+    font-family: 'Patrick Hand', cursive;
   }
   .fortys{
     grid-column: 4;
     grid-row: 10;
+    font-family: 'Patrick Hand', cursive;
   }
   .fortyse{
     grid-column: 5;
     grid-row: 10;
+    font-family: 'Patrick Hand', cursive;
   }
   .fortye{
     grid-column: 1;
     grid-row: 11;
+    font-family: 'Patrick Hand', cursive;
   }
   .fortyn{
     grid-column: 2;
     grid-row: 11;
+    font-family: 'Patrick Hand', cursive;
   }
   .fifty{
     grid-column: 3;
     grid-row: 11;
     margin-left: 5px;
+    font-family: 'Patrick Hand', cursive;
   }
   .fiftyo{
     grid-column: 4;
     grid-row: 11;
+    font-family: 'Patrick Hand', cursive;
   }
   .fiftyt{
     grid-column: 5;
     grid-row: 11;
+    font-family: 'Patrick Hand', cursive;
   }
   .topnav{
       border: 4px solid rgb(51, 51, 51);
