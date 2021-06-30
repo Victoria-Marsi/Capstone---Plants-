@@ -10,7 +10,7 @@ class Plant{
     this.type = type; //string
     this.name = name; //string
     this.sun = sun; //number
-    this.water = water; //water
+    this.water = water; //number
     this.instructions = instructions; //long string
     this.time = time; //string
     this.temp = temp; //number

@@ -1,8 +1,8 @@
-class Annual extends Outdoor{
+class Herb extends Outdoor{
 
   constructor(name, sun, water, instructions, time, temp, desc){
     super();
-    this.subtype = 'Annual';
+    this.subtype = 'Herb';
     this.name = name;
     this.sun = sun;
     this.water = water;

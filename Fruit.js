@@ -1,8 +1,8 @@
-class Perennial extends Outdoor{
+class Fruit extends Outdoor{
 
   constructor(name, sun, water, instructions, time, temp, desc){
     super();
-    this.subtype = 'Perennial';
+    this.subtype = 'Fruit';
     this.name = name;
     this.sun = sun;
     this.water = water;
