@@ -7,6 +7,10 @@
     background-color: rgb(155, 199, 155);
     /* padding-left: 400px; */
   }
+  img{
+    width: 200px;
+    height: 200px;
+  }
   .one {
     grid-column: 1 ;
     grid-row: 1;
