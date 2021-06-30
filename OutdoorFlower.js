@@ -1,6 +1,6 @@
 class OutdoorFlower extends Outdoor{
 
-  constructor(name, sun, water, instructions, time, temp, desc){
+  constructor(name, sun, water, instructions, time){
     super();
     this.subtype = 'Outdoor Flower';
     this.name = name;
@@ -8,7 +8,6 @@ class OutdoorFlower extends Outdoor{
     this.water = water;
     this.instructions = instructions;
     this.time = time;
-    this.temp = temp;
     this.desc = desc;
   }
 }
