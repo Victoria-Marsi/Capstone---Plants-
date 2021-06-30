@@ -1,6 +1,6 @@
 function onLoad() {
 console.log('hi');
-var test = new Annual('Strawberry', 8, 1.5, 'plant them 18 inches apart', 'spring',60, 'adorable red berries');
+var test = new Flowering('Strawberry', 8, 1.5, 'plant them 18 inches apart', 'spring',60, 'adorable red berries');
 console.log(test.getType());
 console.log(test.getName());
 console.log(test.getSubtype());
