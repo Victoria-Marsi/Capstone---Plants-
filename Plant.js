@@ -5,16 +5,16 @@
 
 class Plant{
 
-  constructor(type, name, sun, water, instructions, time, temp, desc){
+  constructor(type, name, sun, water, instructions, time){
     console.log("here");
     this.type = type; //string
     this.name = name; //string
     this.sun = sun; //number
-    this.water = water; //water
+    this.water = water; //number
     this.instructions = instructions; //long string
     this.time = time; //string
-    this.temp = temp; //number
     this.desc = desc; //string
+    this.imgs = imgs // picture or array of pictures
   }
 
   //getters

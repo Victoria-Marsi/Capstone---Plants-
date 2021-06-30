@@ -1,8 +1,8 @@
-class Folliage extends Indoor{
+class Vegetable extends Outdoor{
 
   constructor(name, sun, water, instructions, time){
     super();
-    this.subtype = 'Folliage';
+    this.subtype = 'Vegetable';
     this.name = name;
     this.sun = sun;
     this.water = water;
