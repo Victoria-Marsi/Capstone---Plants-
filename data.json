@@ -1,76 +1,319 @@
 {
-"type": "Outdoor",
-"subtype": "Fruit",
-"members": [
-  {
-    "name": "Strawberry",
-    "sun": 5,
-    "water": 2,
-    "instructions": "plant them 18 inches apart in slightly acidic soil (pH of 5.5 or 6.8)",
-    "time": "spring"
-  },
-  {
-    "name": "Blueberry",
-    "sun": 5,
-    "water": 3,
-    "instructions": "plant 4-5 feet apart",
-    "time": "winter"
-  },
-  {
-    "name": "cherry tree",
-    "sun": 5,
-    "water": 1,
-    "instructions": "30-40 feet apart",
-    "time": "spring/fall"
-  },
-  {
-    "name": "mint",
-    "sun": 4,
-    "water": 3,
-    "instructions": "18-24 in apart pH of 6-7",
-    "time": "spring"
-  },
-  {
-    "name": "oregano",
-    "sun": 4,
-    "water": 1,
-    "instructions": "8-10 inches apart pH 6.5 -7",
-    "time": "spring"
-  },
-  {
-    "name": "basil",
-    "sun": 5,
-    "water": 2,
-    "instructions": "12 inches apart soil pH 6-7",
-    "time": "spring/summer"
-  },
-  {
-    "name": "parsley",
-    "sun": 5,
-    "water": 1,
-    "instructions": "5.5-6.7 pH 6-8 inch apart",
-    "time": "spring"
-  },
-  {
-    "name": "coriander",
-    "sun": 2,
-    "water": 2,
-    "instructions": "pH 6.5-7.5",
-    "time": "spring"
-  },
-  {
-    "name": "cucumber",
-    "sun": 4,
-    "water": 2,
-    "instructions": "12 inches apart pH",
-    "time": "spring"
-  },
-  {
-    "name": "cherry tomato",
-    "sun": 4,
-    "water": 3,
-    "instructions": "pH 6.2-6.5",
-    "time": "early spring"
-  }
- ]
+  "types": [
+    "Outdoor",
+    {
+      "subtype": [
+        "Fruit",
+        {
+          "members": [
+            {
+              "name": "Strawberry",
+              "sun": 5,
+              "water": 2,
+              "instructions": "plant them 18 inches apart in slightly acidic soil (pH of 5.5 or 6.8)",
+              "time": "spring"
+            },
+            {
+              "name": "Blueberry",
+              "sun": 5,
+              "water": 3,
+              "instructions": "plant 4-5 feet apart",
+              "time": "winter"
+            },
+            {
+              "name": "cherry tree",
+              "sun": 5,
+              "water": 1,
+              "instructions": "30-40 feet apart",
+              "time": "spring/fall"
+            }
+          ]
+        },
+        "Vegetable",
+        {
+          "members": [
+            {
+              "name": "cucumber",
+              "sun": 4,
+              "water": 2,
+              "instructions": "12 inches apart pH",
+              "time": "spring"
+            },
+            {
+              "name": "cherry tomato",
+              "sun": 4,
+              "water": 3,
+              "instructions": "pH 6.2-6.5",
+              "time": "early spring"
+            }
+          ]
+        },
+        "Herb",
+        {
+          "members": [
+            {
+              "name": "mint",
+              "sun": 4,
+              "water": 3,
+              "instructions": "18-24 in apart pH of 6-7",
+              "time": "spring"
+            },
+            {
+              "name": "oregano",
+              "sun": 4,
+              "water": 1,
+              "instructions": "8-10 inches apart pH 6.5 -7",
+              "time": "spring"
+            },
+            {
+              "name": "basil",
+              "sun": 5,
+              "water": 2,
+              "instructions": "12 inches apart soil pH 6-7",
+              "time": "spring/summer"
+            },
+            {
+              "name": "parsley",
+              "sun": 5,
+              "water": 1,
+              "instructions": "5.5-6.7 pH 6-8 inch apart",
+              "time": "spring"
+            },
+            {
+              "name": "coriander",
+              "sun": 2,
+              "water": 2,
+              "instructions": "pH 6.5-7.5",
+              "time": "spring"
+            }
+          ]
+        },
+        "Outdoor Flower",
+        {
+          "members": [
+            {
+              "name": "Zinnia elegans 'Zinderella Lilac'",
+              "sun": 5,
+              "water": 2,
+              "instructions": "Plant 30-60cm apart in either Chalky, Clay, Loam, Sand soil. Low maintenance",
+              "time": "Summer, Fall"
+            },
+            {
+              "name": "Tagetes erecta (African Marigold)",
+              "sun": 5,
+              "water": 2,
+              "instructions": "Plant 30-60cm apart in either Clay, Loam, Sand soil. Low maintenance",
+              "time": "Summer, Fall"
+            },
+            {
+              "name": "Rudbeckia hirta 'Denver Daisy' Black-Eyed Susan",
+              "sun": 5,
+              "water": 1,
+              "instructions": "Plant 45-60cm apart in either Loam, Sand soil. Low maintenance",
+              "time": "Summer, Fall"
+            },
+            {
+              "name": "Petunia 'Supertunia Vista Bubblegum'",
+              "sun": 4,
+              "water": 2,
+              "instructions": "Plant 60-90cm apart in either Chalky, Clay, Loam, Sand soil. Low maintenance",
+              "time": "Late Spring, Summer, Fall"
+            },
+            {
+              "name": "Nemophila menziesii (Baby Blue Eyes)",
+              "sun": 4,
+              "water": 2,
+              "instructions": "Plant 15-30cm apart in either Chalky, Clay, Loam, Sand soil. Low maintenance",
+              "time": "Spring, Early Saummer, Winter"
+            },
+            {
+              "name": "Layia platyglossa (Coastal Tidytips)",
+              "sun": 5,
+              "water": 1,
+              "instructions": "Plant 30-40cm apart in either Clay, Loam, Sand soil. Low maintenance",
+              "time": "Spring, Early Summer"
+            },
+            {
+              "name": "Helianthus annus 'Taiyo' (Common Sunflow)",
+              "sun": 5,
+              "water": 2,
+              "instructions": "Plant 30-60cm apart in either Chalky, Clay, Loam, Sand soil. Low maintenance",
+              "time": "Summer"
+            },
+            {
+              "name": "Gomphrena globoss 'Fireworks' (Globe Amaranth)",
+              "sun": 5,
+              "water": 2,
+              "instructions": "Plant 90-120cm apart in either Chalky, Clay, Loam, Sand soil. Low maintenance",
+              "time": "Summer, Fall"
+            },
+            {
+              "name": "Gerbera Garvinea Sylvana (Gerbera Daisy)",
+              "sun": 4,
+              "water": 2,
+              "instructions": "Plant 30-60cm apart in either Chalk, Loam, Sand soil. Low maintenance",
+              "time": "Spring, Summer, Fall"
+            },
+            {
+              "name": "Gilia capitata (Blue Gilia)",
+              "sun": 5,
+              "water": 1,
+              "instructions": "Plant 22cm apart in either Chalk, Loam, Sand soil. Low maintenance",
+              "time": "Late Spring, Early-Mid Summer"
+            },
+            {
+              "name": "Dimorphotheca sinuata (Cape Marigold)",
+              "sun": 5,
+              "water": 2,
+              "instructions": "Plant 10cm apart in either Loam, Sand soil. Average maintenance",
+              "time": "Year Round"
+            },
+            {
+              "name": "Gazania 'Big Kiss White Flame' (Treasure Flower)",
+              "sun": 5,
+              "water": 2,
+              "instructions": "Plant 20-25cm apart in either Loam, Sand soil. Low maintenance",
+              "time": "Late Spring, Early Summer"
+            },
+            {
+              "name": "Bellis perennis 'Pomponette' (English Daisy)",
+              "sun": 4,
+              "water": 2,
+              "instructions": "Plant 15-20cm apart in either Chalk, Clay, Loam, Sand soil. Low maintenance",
+              "time": "Spring, Early Summer"
+            },
+            {
+              "name": "Angelonia 'Angelface Blue' (Summer Snapdragon)",
+              "sun": 5,
+              "water": 1,
+              "instructions": "Plant 25-37cm apart in either Chalk, Clay, Loam, Sand soil. Low maintenance",
+              "time": "Late Spring, Summer, Fall"
+            },
+            {
+              "name": "Salvia horminum 'Pink Sunday' Annual Sage",
+              "sun": 4,
+              "water": 2,
+              "instructions": "Plant 22-30cm apart in either Chalk, Loam, Sand soil. Low maintenance",
+              "time": "Summer, Fall"
+            }
+          ]
+        }
+      ]
+    },
+    "Indoor",
+    {
+      "subtype": [
+        "Succulent",
+        {
+          "members": [
+            {
+              "name": "Aenium 'Blushing Beauty'",
+              "sun": "Full/Partial Sun",
+              "water": "Low, Average",
+              "time": "Year Round",
+              "instructions": "plant 90cm apart in either Loam, Sand soil. Low Maintenance"
+            },
+            {
+              "name": "Agave 'Blue Flame'",
+              "sun": "Full/Partial Sun",
+              "water": "Low ",
+              "time": "Year Round",
+              "instructions": "plant 120cm apart in either Loam, Sand soil. Low Maintenance"
+            },
+            {
+              "name": "Aloe nobilis (Golden Toothed Aloe)",
+              "sun": "Full Sun",
+              "water": "Low",
+              "time": "Year Round",
+              "instructions": "plant 45cm  apart in either Loam, Sand soil. Low Maintenance"
+            },
+            {
+              "name": "Echeveria 'Cassyz Winter'",
+              "sun": "Full/Partial Sun",
+              "water": "Low",
+              "time": "Year Round",
+              "instructions": "plant 20cm apart in either Loam, Sand soil. Low Maintenance"
+            },
+            {
+              "name": "Echeveria 'Frank Reinelt'",
+              "sun": "Full/Partial Sun",
+              "water": "Low",
+              "time": "Year Round",
+              "instructions": "plant 20cm apart in either Loam, Sand soil. Low Maintenance"
+            },
+            {
+              "name": "Echeveria 'Tippy'",
+              "sun": "Full/Partial Sun",
+              "water": "Low",
+              "time": "Year Round",
+              "instructions": "plant 30cm apart in either Loam, Sand soil. Low Maintenance"
+            },
+            {
+              "name": "Echeveria elegans",
+              "sun": "Full/Partial Sun",
+              "water": "Low",
+              "time": "Year Round",
+              "instructions": "plant 30cm apart in either Loam, Sand soil. Low Maintenance"
+            },
+            {
+              "name": "Echeveria secunda",
+              "sun": "Full/Partial Sun",
+              "water": "Low",
+              "time": "Year Round",
+              "instructions": "plant 15cm apart in either Loam, Sand soil. Low Maintenance"
+            },
+            {
+              "name": "Agave 'Kishp Kan' Butterfly Agave",
+              "sun": "Full/Partial Sun",
+              "water": "Low",
+              "time": "Year Round",
+              "instructions": "plant 90cm apart in either Loam, Sand soil. Low Maintenance"
+            },
+            {
+              "name": "Agave victoriae-reginae (Queen Victoria Century Plant)",
+              "sun": "Full Sun",
+              "water": "Low",
+              "time": "Year Round",
+              "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance"
+            },
+            {
+              "name": "Aloe aristata (Torch Plant)",
+              "sun": "Full/Partial Sun",
+              "water": "Low",
+              "time": "Year Round",
+              "instructions": "plant 20-30cm apart in either Loam, Sand soil. Low Maintenance"
+            },
+            {
+              "name": "Agave nickelsiae (King of the Agaves)",
+              "sun": "Full/Partial Sun",
+              "water": "Low",
+              "time": "Year Round",
+              "instructions": "plant 90cm apart in either Loam, Sand soil. Low Maintenance"
+            },
+            {
+              "name": "Aloe brevifolia (short-leaf aloe)",
+              "sun": "Full Sun",
+              "water": "Low",
+              "time": "Year Round",
+              "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance"
+            },
+            {
+              "name": "Aloe distans (Jewel Aloe)",
+              "sun": "Full/Partial Sun",
+              "water": "Low",
+              "time": "Year Round",
+              "instructions": "plant 40cm apart in either Loam, Sand soil. Low Maintenance"
+            },
+            {
+              "name": "Aloe dorotheae ",
+              "sun": "Full Sun",
+              "water": "Low",
+              "time": "Year Round",
+              "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
