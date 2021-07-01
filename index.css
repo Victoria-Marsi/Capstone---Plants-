@@ -10,7 +10,9 @@
       background-size: 100%;
     background-position:50% 50%;*/
   }
-
+  .page{
+    font-family: 'Pacifico',cursive;
+  }
   .border{
     padding: 5px;
       background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #92e492 34%);

@@ -1,7 +1,6 @@
 
 body {
-  font-family: 'Times New Roman', Times, serif;
-  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-family: 'Big Shoulders Stencil Display', cursive;
   font-size: 40px;
   line-height: 1.5;
 
@@ -10,7 +9,7 @@ body {
 
 /* Select all h1, h2, ..., h6 tags */
 h1, h2, h3, h4, h5, h6 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Pacifico',cursive;
 }
 
 /* Select the element with id="page" */
