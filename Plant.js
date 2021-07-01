@@ -13,8 +13,8 @@ class Plant{
     this.water = water; //number
     this.instructions = instructions; //long string
     this.time = time; //string
-    this.desc = desc; //string
-    this.imgs = imgs // picture or array of pictures
+    this.desc;
+    this.imgs; // picture or array of pictures
   }
 
   //getters

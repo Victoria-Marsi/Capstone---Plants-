@@ -9,6 +9,6 @@ class IndoorFlower extends Indoor{
     this.instructions = instructions;
     this.time = time;
     this.temp = temp;
-    this.desc = desc;
+    this.desc;
   }
 }
