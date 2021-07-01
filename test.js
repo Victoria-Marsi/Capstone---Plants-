@@ -21,11 +21,7 @@ function makePlants(json){
   console.log(allType.length);
   for (let i = 0; i < allType.length; i++){
     var subtypeName = null; //stores name of subtype
-   // console.log("here");
     if(i%2 != 0){ // if i is odd
-     // allType = types[i]; //i is equal to array of subtypes
-      //console.log(allType.length);
-      //console.log("odd");
       var subtypes = []; //array to store current location
       subtypes = allType[i]['subtype'];
       console.log(subtypes.length);
@@ -33,7 +29,6 @@ function makePlants(json){
         console.log("beginning of loop 2");
         if(j%2 == 0){ //if j is even
           subtypeName = subtypes[j];
-         // console.log(subtypeName);
         }
         else{ //if j is odd
           var tempArray = [];
@@ -41,8 +36,6 @@ function makePlants(json){
           console.log(tempArray);
           var memberArray = [];
           memberArray = tempArray['members'];
-         // console.log(memberArray);
-         // tempArray = subtype['members']; //fill array
           for(let k = 0; k < memberArray.length; k++){
             var tempObject = memberArray[k];
             let name = tempObject['name']; //string
@@ -70,9 +63,7 @@ function contsructorUtil(subtype, name,sun, water, instructions, time){
    return new Fruit(name, sun, water, instructions, time);
  }
  if (subtype === "Herb"){
-   console.log("hello?");
    return new Herb(name, sun, water, instructions, time);
-
  }
  if (subtype === "Indoor Flower"){
    return new IndoorFlower(name, sun, water, instructions, time);

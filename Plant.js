@@ -6,7 +6,6 @@
 class Plant{
 
   constructor(type, name, sun, water, instructions, time){
-    console.log("here");
     this.type = type; //string
     this.name = name; //string
     this.sun = sun; //number
