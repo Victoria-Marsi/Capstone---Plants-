@@ -8,6 +8,7 @@
     /* padding-left: 400px; */
   }
   /* Dropdown Button */
+  
 .dropbtn {
   background-color: #255a23;
   color: white;
@@ -24,12 +25,12 @@
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  width:200px;
+  width:100px;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 190px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(121, 187, 121, 0.705);
   z-index: 5;
   /*overflow:auto;*/
   
@@ -37,10 +38,11 @@
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+  color: rgb(140, 206, 144);
+  padding: 12px 12px;
   text-decoration: none;
   display: block;
+  width: 69px;
 }
 
 /* Change color of dropdown links on hover */
@@ -50,7 +52,8 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropbtn:hover{
-background-color: aqua;
+background-color: rgb(170, 236, 175);
+
 
 }
 /* Change the background color of the dropdown button when the dropdown content is shown */
@@ -72,27 +75,27 @@ background-color: aqua;
   .one {
     grid-column: 1 ;
     grid-row: 1;
-    border: solid lightgreen 4px;
+    border: none;
     text-align: right;
     border-right: none;
     margin-right: 5px;
     font-family: 'Patrick Hand', cursive;
   }
   .space{
-  border: solid lightgreen 4px;
+  border: none;
   border-left: 0px;
   text-align: left;
   font-family: 'Patrick Hand', cursive;
   }
   .space1{
-    border: solid rgb(209, 221, 40) 4px;
+    border: none;
     border-right: 0px;
     margin-left: 5px;
   }
   .two {
     grid-column: 4;
     grid-row: 1;
-    border: solid rgb(209, 221, 40) 4px;
+    border: none
     text-align: center;
     margin-left: 5px;
     border-left: 0px;
@@ -101,7 +104,7 @@ background-color: aqua;
     font-family: 'Patrick Hand', cursive;
   }
   .space2{
-    border: solid rgb(209, 221, 40) 4px;
+    border: none;
     border-left: 0px;
   }
   .three {
@@ -122,7 +125,7 @@ background-color: aqua;
     grid-column: 3;
     grid-row: 2;
     border: solid darkslategray 2px;
-    border-right: dotted rgb(209, 221, 40) 5px;
+    border-right: none;
     margin-left: 5px;
     font-family: 'Patrick Hand', cursive;
   }
@@ -130,14 +133,14 @@ background-color: aqua;
     grid-column: 4;
     grid-row: 2;
     border: solid darkslategray 2px;
-    border-right: dotted rgb(209, 221, 40) 5px;
+    border-right: none;
     border-left: 0px;
     font-family: 'Patrick Hand', cursive;
   }
   .seven{
     grid-column: 5;
     grid-row: 2;
-    border: solid darkslategray 2px;
+    border:none;
     border-left: 0px;
     font-family: 'Patrick Hand', cursive;
   }
@@ -378,7 +381,8 @@ background-color: aqua;
   }
   .topnav {
     /*overflow: hidden;*/
-    background-color: #e9e9e9;
+    background-color: #e9e9e900;
+    margin-top: 10px;
   }
   
   .topnav a {
@@ -448,3 +452,27 @@ background-color: aqua;
     text-align: center;
     font-family: 'Dancing Script', cursive;
 }
+a.button1{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+  }
+  a.button1:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+  }
+  @media all and (max-width:30em){
+   a.button1{
+  display:block;
+  margin:0.4em auto;
+  }
+  }
