@@ -5,7 +5,7 @@ searchForm.addEventListener('submit', function(event) {
     console.log(event);
     if(searchInput == 'name'){
         var className;
-      //  className = event.target.#searchform;
+        className = event.target.#searchform;
         console.log(className);
         const match = allPlants.find(element => element.name === className);
         console.log(match);
