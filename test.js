@@ -1,3 +1,4 @@
+var allPlants = []; //empty array
 function onLoad(){
 const header = document.querySelector('header');
 const section = document.querySelector('section');
@@ -8,7 +9,7 @@ request.open('GET', url);
 request.responseType = 'json';
 request.send();
 
-var allPlants = []; //empty array
+
 
 request.onload = function() {
   const plants = request.response;
@@ -51,6 +52,7 @@ function makePlants(json){
             //if name is a certain thing it makes a certain constructor
             var currentPlant = contsructorUtil(subtypeName, name, sun, water, instructions, time, imgs); //makes the object and stores it
             currentPlant.imgs = imgs;
+            currentPlant.show = true;
             allPlants.push(currentPlant);
             //console.log(subtypeName);
            // console.log(currentPlant);
@@ -97,6 +99,7 @@ function swap(firstIdx, secondIdx, array){
 
 function selectionSort(array){
   for (let i = 0; i < array.length; i++){
+    console.log(array[i].show);
     let minIdx = i;
     for (let j = i+1; j < array.length; j++){
       if((array[j].name).localeCompare(array[minIdx].name) < 0){
@@ -112,7 +115,7 @@ function makeDisplay(array){
   var template = "";
   var container = document.querySelector('.plantContainer');
   for (let i = 0; i < array.length; i++){
-    if(array[i]){
+    if(array[i].show === true){
     template+=`<div class="${array[i].name}">
     <img class="${array[i].name}" src="${array[i].imgs}">
     <p>${array[i].name}</p>
