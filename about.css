@@ -1,0 +1,30 @@
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  line-height: 1.5;
+
+  background-color: darkseagreen;
+}
+
+/* Select all h1, h2, ..., h6 tags */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Select the element with id="page" */
+#page {
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* Select all <pre> tags */
+pre {
+  /* Remove leading whitespace from inside <pre> tags */
+  white-space: pre-line;
+}
+
+pre code {
+  white-space: pre-line;
+}

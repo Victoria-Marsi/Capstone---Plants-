@@ -15,13 +15,6 @@ searchForm.addEventListener('submit', function(event) {
     }
     makeDisplay(newArray);
 });
-// if(searchInput == 'name'){
-//     var className;
-//     className = event.target.#searchform;
-//     console.log(className);
-//     const match = allPlants.find(element => element.name === className);
-//     console.log(match);
-//   }
 
 function fuzzyMatch(pattern, str) {
     pattern = '.*' + pattern.split('').join('.*') + '.*';
