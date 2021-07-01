@@ -44,7 +44,8 @@
               "sun": 4,
               "water": 3,
               "instructions": "pH 6.2-6.5",
-              "time": "early spring"
+              "time": "early spring",
+              "imgs":"cherrytomato.jpg"
             }
           ]
         },
