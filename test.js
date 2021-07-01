@@ -121,7 +121,7 @@ function makeDisplay(array){
   }
 }
   container.innerHTML = template;
-  console.log(template);
+  //console.log(template);
 }
 
 var container = document.querySelector('.plantContainer');
@@ -130,9 +130,12 @@ container.addEventListener('click', function(event){
   if(event.target.localName === 'img'){
     var className;
     className = event.target.className;
-    console.log(className);
+    //console.log(className);
     const match = allPlants.find(element => element.name === className);
-    console.log(match);
+    //console.log(match);
+    var nodes=event.target.parentNode.childNodes[5];
+    console.log(nodes)
+    nodes.classList.toggle('hidden')
   }
 });
 
