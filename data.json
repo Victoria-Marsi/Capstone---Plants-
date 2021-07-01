@@ -62,7 +62,7 @@
               "water": 3,
               "instructions": "18-24 in apart pH of 6-7",
               "time": "spring",
-              "imgs":
+              "imgs":"mint.jpg"
             },
             {
               "name": "oregano",
@@ -70,7 +70,7 @@
               "water": 1,
               "instructions": "8-10 inches apart pH 6.5 -7",
               "time": "spring",
-              "imgs":
+              "imgs":"oregano.jpg"
             },
             {
               "name": "basil",
@@ -86,7 +86,7 @@
               "water": 1,
               "instructions": "5.5-6.7 pH 6-8 inch apart",
               "time": "spring",
-              "imgs":
+              "imgs":"parsley.jpg"
             },
             {
               "name": "coriander",
@@ -94,7 +94,7 @@
               "water": 2,
               "instructions": "pH 6.5-7.5",
               "time": "spring",
-              "imgs":
+              "imgs":"coriander.jpg"
             }
           ]
         },
@@ -238,7 +238,7 @@
               "water": 1,
               "time": "Year Round",
               "instructions": "plant 45cm  apart in either Loam, Sand soil. Low Maintenance",
-              "imgs":"goldentoothedaloe.jpg"
+              "imgs":"toothedaloe.jpg"
             },
             {
               "name": "Echeveria 'Cassyz Winter'",
