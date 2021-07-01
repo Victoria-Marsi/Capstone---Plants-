@@ -5,8 +5,7 @@
 
 class Plant{
 
-  constructor(type, name, sun, water, instructions, time){
-    console.log("here");
+  constructor(subtype,type, name, sun, water, instructions, time){
     this.type = type; //string
     this.name = name; //string
     this.sun = sun; //number
@@ -14,6 +13,7 @@ class Plant{
     this.instructions = instructions; //long string
     this.time = time; //string
     this.desc;
+    this.subtype = subtype;
     this.imgs; // picture or array of pictures
   }
 

@@ -1,7 +1,7 @@
 class Succulent extends Indoor{
 
   constructor(name, sun, water, instructions, time){
-    super();
+    super('Succulent');
     this.subtype = 'Succulent';
     this.name = name;
     this.sun = sun;

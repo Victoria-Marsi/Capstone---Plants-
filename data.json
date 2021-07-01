@@ -312,6 +312,116 @@
               "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance"
             }
           ]
+        },
+        "Indoor Flower",
+        {
+          "members":[
+            {
+              "name": "Hoya Carnosa ",
+              "sun": 3,
+              "water": 1,
+              "time": "Summer",
+              "instructions": "Plant 15cm apart in potting soil."
+            },
+            {
+              "name": "Poinsettia",
+              "sun": 4,
+              "water": 2,
+              "time": "Winter",
+              "instructions": "Plant 23cm apart in loamy, well-drained soil."
+            },
+            {
+              "name": "Hydrangeas",
+              "sun": 4,
+              "water": 1,
+              "time": "Summer, Fall",
+              "instructions": "Plant 18 cm apart in potting soil."
+            },
+            {
+              "name": "Amaryllis Bulbs- Royal Velvet",
+              "sun": 4,
+              "water": 2,
+              "time": "Fall",
+              "instructions": "Plant 30 cm apart in potting soil."
+            },
+            {
+              "name": "Orchids",
+              "sun": 5,
+              "water": 2,
+              "time": "Year Round",
+              "instructions": "Plant 21 cm apart in potting soil."
+            },
+            {
+              "name": "Peace Lilies ",
+              "sun": 3,
+              "water": 2,
+              "time": "Spring",
+              "instructions": "Plant 12 cm apart in potting soil."
+            },
+            {
+              "name": "Begonias ",
+              "sun": 4,
+              "water": 1,
+              "time": "Summer into fall",
+              "instructions": "Plant 21 cm apart in potting soil."
+            },
+            {
+              "name": "Anthurnium ",
+              "sun": 5,
+              "water": 2,
+              "time": "Year Round",
+              "instructions": "Plant 23 cm apart in potting soil."
+            },
+            {
+              "name": "Hibiscus ",
+              "sun": 4,
+              "water": 2,
+              "time": "Spring, Summer, Fall",
+              "instructions": "Plant 31 cm apart in potting soil."
+            },
+            {
+              "name": "Bromeliad ",
+              "sun": 5,
+              "water": 2,
+              "time": "Year Round",
+              "instructions": "Plant 12 cm apart in potting soil."
+            },
+            {
+              "name": "Kalanchoe",
+              "sun": 4,
+              "water": 1,
+              "time": "Year Round",
+              "instructions": "Plant 32 cm apart in potting soil."
+            },
+            {
+              "name": "Jasmine ",
+              "sun": 5,
+              "water": 2,
+              "time": "Fall",
+              "instructions": "Plant 21 cm apart in porous. "
+            },
+            {
+              "name": "Angel Wing Begonia",
+              "sun": 2,
+              "water": 1,
+              "time": "Spring, Early Summer",
+              "instructions": "Plant 32 cm apart in potting soil."
+            },
+            {
+              "name": "Cyclemen",
+              "sun": 3,
+              "water": 2,
+              "time": "Summer",
+              "instructions": "Plant 24 cm apart in potting soil."
+            },
+            {
+              "name": "Cape primrose ",
+              "sun": 3,
+              "water": 1,
+              "time": "Year Round",
+              "instructions": "Plant 13 cm apart in potting soil."
+            }
+           ]
         }
       ]
     }
