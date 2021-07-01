@@ -116,7 +116,7 @@ function makeDisplay(array){
     template+=`<div class="${array[i].name}">
     <img class="${array[i].name}" src="${array[i].imgs}">
     <p>${array[i].name}</p>
-    <p class = hidden> "${array[i].sun }${array[i].water }${array[i].instructions } ${array[i].time}"</p>
+    <p class = hidden> sun level: ${array[i].sun} water level: ${array[i].water } care instructions: ${array[i].instructions } planting season: ${array[i].time} </p>
   </div>`
   }
 }
