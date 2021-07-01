@@ -11,21 +11,24 @@
               "sun": 5,
               "water": 2,
               "instructions": "plant them 18 inches apart in slightly acidic soil (pH of 5.5 or 6.8)",
-              "time": "spring"
+              "time": "spring",
+              "imgs":"Strawberry.jpg"
             },
             {
               "name": "Blueberry",
               "sun": 5,
               "water": 3,
               "instructions": "plant 4-5 feet apart",
-              "time": "winter"
+              "time": "winter",
+              "imgs": "blueberry.jpg"
             },
             {
               "name": "cherry tree",
               "sun": 5,
               "water": 1,
               "instructions": "30-40 feet apart",
-              "time": "spring/fall"
+              "time": "spring/fall",
+              "imgs":"cherry.jpg"
             }
           ]
         },
@@ -37,7 +40,8 @@
               "sun": 4,
               "water": 2,
               "instructions": "12 inches apart pH",
-              "time": "spring"
+              "time": "spring",
+              "imgs":"cucumber.jpg"
             },
             {
               "name": "cherry tomato",
