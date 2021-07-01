@@ -5,7 +5,7 @@ searchForm.addEventListener('submit', function(event) {
     console.log(event);
     if(searchInput == 'name'){
         var className;
-        className = event.target.#searchform;
+      //  className = event.target.#searchform;
         console.log(className);
         const match = allPlants.find(element => element.name === className);
         console.log(match);
@@ -18,11 +18,12 @@ dropdown.addEventListener('click', function(event){
     console.log(event);
     if(event.target.className === 'fruit'){
         console.log(event.target.className);
-        for(let i = 0; i < allPlants; i++){
+        for(let i = 0; i < allPlants.length; i++){
             allPlants[i].show = false;
-            if(allPlants[i].subtype === 'fruit'){
+            console.log(allPlants[i].show);
+            if(allPlants[i].subtype === 'Fruit'){
                 console.log("working");
-                allPlants[i].setShow(true);
+                allPlants[i].show = true;
             }
         }
     }
@@ -41,4 +42,4 @@ dropdown.addEventListener('click', function(event){
     if(event.target.className === 'vegetable'){
 
     }
-})
+});
