@@ -8,6 +8,6 @@ class OutdoorFlower extends Outdoor{
     this.water = water;
     this.instructions = instructions;
     this.time = time;
-    this.desc = desc;
+    this.desc;
   }
 }

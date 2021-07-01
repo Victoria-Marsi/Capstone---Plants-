@@ -18,6 +18,7 @@ var allPlants = []; //empty array
 function makePlants(json){
   var allType = []; //sets current array to empty (either indoor or outdoor)
   var allType = json['types']; // makes an array where evens are types and odds are arrays
+  console.log(allType.length);
   for (let i = 0; i < allType.length; i++){
     var subtypeName = null; //stores name of subtype
    // console.log("here");
@@ -25,10 +26,11 @@ function makePlants(json){
      // allType = types[i]; //i is equal to array of subtypes
       //console.log(allType.length);
       //console.log("odd");
-      for(let j = 0; j < allType.length; j++){
+      var subtypes = []; //array to store current location
+      subtypes = allType[i]['subtype'];
+      console.log(subtypes.length);
+      for(let j = 0; j < subtypes.length; j++){
         console.log("beginning of loop 2");
-        var subtypes = []; //array to store current location
-        subtypes = allType[i]['subtype'];
         if(j%2 == 0){ //if j is even
           subtypeName = subtypes[j];
          // console.log(subtypeName);
@@ -68,7 +70,9 @@ function contsructorUtil(subtype, name,sun, water, instructions, time){
    return new Fruit(name, sun, water, instructions, time);
  }
  if (subtype === "Herb"){
+   console.log("hello?");
    return new Herb(name, sun, water, instructions, time);
+
  }
  if (subtype === "Indoor Flower"){
    return new IndoorFlower(name, sun, water, instructions, time);
