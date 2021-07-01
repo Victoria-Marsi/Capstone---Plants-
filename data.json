@@ -62,7 +62,7 @@
               "water": 3,
               "instructions": "18-24 in apart pH of 6-7",
               "time": "spring",
-              "imgs": 
+              "imgs":
             },
             {
               "name": "oregano",
@@ -70,7 +70,7 @@
               "water": 1,
               "instructions": "8-10 inches apart pH 6.5 -7",
               "time": "spring",
-              "imgs": 
+              "imgs":
             },
             {
               "name": "basil",
@@ -86,7 +86,7 @@
               "water": 1,
               "instructions": "5.5-6.7 pH 6-8 inch apart",
               "time": "spring",
-              "imgs": 
+              "imgs":
             },
             {
               "name": "coriander",
@@ -94,7 +94,7 @@
               "water": 2,
               "instructions": "pH 6.5-7.5",
               "time": "spring",
-              "imgs": 
+              "imgs":
             }
           ]
         },
@@ -371,7 +371,7 @@
               "water": 2,
               "time": "Fall",
               "instructions": "Plant 30 cm apart in potting soil.",
-              "imgs": "royalvelvet"
+              "imgs": "royalvelvet.jpg"
             },
             {
               "name": "Orchids",
