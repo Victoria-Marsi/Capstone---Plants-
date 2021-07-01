@@ -240,84 +240,96 @@
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 20cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 20cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"cassyzwinter.jpg"
             },
             {
               "name": "Echeveria 'Frank Reinelt'",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 20cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 20cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"frankreinelt.jpg"
             },
             {
               "name": "Echeveria 'Tippy'",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 30cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 30cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"tippy.jpg"
             },
             {
               "name": "Echeveria elegans",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 30cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 30cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"elegans.jpg"
             },
             {
               "name": "Echeveria secunda",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 15cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 15cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"secunda.jpg"
             },
             {
               "name": "Agave 'Kishp Kan' Butterfly Agave",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 90cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 90cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs": "butterflyagave.jpg"
             },
             {
               "name": "Agave victoriae-reginae (Queen Victoria Century Plant)",
               "sun": 5,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"queenvictoria.jpg"
             },
             {
               "name": "Aloe aristata (Torch Plant)",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 20-30cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 20-30cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"torch.jpg"
             },
             {
               "name": "Agave nickelsiae (King of the Agaves)",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 90cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 90cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"kingoftheagaves.jpg"
             },
             {
               "name": "Aloe brevifolia (short-leaf aloe)",
               "sun": 5,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"shortleafaloe.jpg"
             },
             {
               "name": "Aloe distans (Jewel Aloe)",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 40cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 40cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"jewelaloe.jpg"
             },
             {
               "name": "Aloe dorotheae ",
               "sun": 5,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"aloedorothease.jpg"
             }
           ]
         },
