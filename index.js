@@ -2,15 +2,18 @@ let searchForm = document.querySelector('#search-form');
 searchForm.addEventListener('submit', function(event) {
     event.preventDefault();
     let searchInput = document.querySelector('#search-input').value;
+    console.log(searchInput);
+    var search = searchInput.toLowerCase();
     console.log(event);
-    // alert("You are looking for " + searchInput)
-    if(searchInput == 'name'){
-        var className;
-        //className = event.target.#searchform;
-        console.log(className);
-        const match = allPlants.find(element => element.name === className);
-        console.log(match);
-      }
+    newArray = [];
+    for (let i = 0; i < allPlants.length; i++){
+        console.log(fuzzyMatch(search, allPlants[i].name));
+     if(((((allPlants[i].name)).toLowerCase()).includes(search))||(((((allPlants[i].subtype)).toLowerCase()).includes(search)))
+        ||((((allPlants[i].type)).toLowerCase()).includes(search))){
+        newArray.push(allPlants[i]);
+     }
+    }
+    makeDisplay(newArray);
 });
 // if(searchInput == 'name'){
 //     var className;
@@ -19,6 +22,12 @@ searchForm.addEventListener('submit', function(event) {
 //     const match = allPlants.find(element => element.name === className);
 //     console.log(match);
 //   }
+
+function fuzzyMatch(pattern, str) {
+    pattern = '.*' + pattern.split('').join('.*') + '.*';
+    const re = new RegExp(pattern);
+    return re.test(str);
+  }
 
 var dropdown = document.body.querySelector('.dropdown-content');
 dropdown.addEventListener('click', function(event){
@@ -128,11 +137,13 @@ dropdown.addEventListener('click', function(event){
 });
 
 function makeDisplay(array){
+    console.log("hello")
     var template = "";
     var container = document.querySelector('.plantContainer');
+    console.log(array.length);
     for (let i = 0; i < array.length; i++){
         console.log(array);
-      if(array[i].show === true){
+      if(array[i]){
         console.log(array[i].show);
       template+=`<div class="${array[i].name}">
       <img class="${array[i].name}" src="${array[i].imgs}">
