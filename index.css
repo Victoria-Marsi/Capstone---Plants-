@@ -7,12 +7,73 @@
     background-color: rgb(155, 199, 155);
     /* padding-left: 400px; */
   }
-
-  .dropbtn{
-
-    width: 5px;
-    height: 2px;
-  }
+  .homebutton{
+     display:inline-block;
+     padding:0.35em 1.2em;
+     border:0.1em solid #FFFFFF;
+     margin:0 0.3em 0.3em 0;
+     border-radius:0.12em;
+     box-sizing: border-box;
+     text-decoration:none;
+     font-family:'Roboto',sans-serif;
+     font-weight:300;
+     color:#FFFFFF;
+     text-align:center;
+     transition: all 0.2s;
+    }
+    .homebutton:hover{
+     color:#000000;
+     background-color:#FFFFFF;
+    }
+    @media all and (max-width:30em){
+    .homebutton{
+      display:block;
+      margin:0.4em auto;
+     }
+    }
+    <style>
+    homebutton {
+      display: inline-block;
+      background-color: #7b38d8;
+      border-radius: 10px;
+      border: 4px double #cccccc;
+      color: #eeeeee;
+      text-align: center;
+      font-size: 28px;
+      padding: 20px;
+      width: 200px;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+  </style>
+.submit{
+     display:inline-block;
+     padding:0.35em 1.2em;
+     border:0.1em solid #FFFFFF;
+     margin:0 0.3em 0.3em 0;
+     border-radius:0.12em;
+     box-sizing: border-box;
+     text-decoration:none;
+     font-family:'Roboto',sans-serif;
+     font-weight:300;
+     color:#FFFFFF;
+     text-align:center;
+     transition: all 0.2s;
+    }
+    .submit:hover{
+     color:#000000;
+     background-color:#FFFFFF;
+    }
+    @media all and (max-width:30em){
+    .submit{
+      display:block;
+      margin:0.4em auto;
+     }
+}
   img{
     width: 200px;
     height: 200px;
@@ -370,6 +431,7 @@
     border: none;
     cursor: pointer;
   }
+  
   
   .topnav .search-container button:hover {
     background: brown;
