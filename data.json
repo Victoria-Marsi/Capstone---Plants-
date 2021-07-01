@@ -169,42 +169,48 @@
               "sun": 5,
               "water": 1,
               "instructions": "Plant 22cm apart in either Chalk, Loam, Sand soil. Low maintenance",
-              "time": "Late Spring, Early-Mid Summer"
+              "time": "Late Spring, Early-Mid Summer",
+              "imgs":"bluegilia.jpg"
             },
             {
               "name": "Dimorphotheca sinuata (Cape Marigold)",
               "sun": 5,
               "water": 2,
               "instructions": "Plant 10cm apart in either Loam, Sand soil. Average maintenance",
-              "time": "Year Round"
+              "time": "Year Round",
+              "imgs":"capemarigold.jpg"
             },
             {
               "name": "Gazania 'Big Kiss White Flame' (Treasure Flower)",
               "sun": 5,
               "water": 2,
               "instructions": "Plant 20-25cm apart in either Loam, Sand soil. Low maintenance",
-              "time": "Late Spring, Early Summer"
+              "time": "Late Spring, Early Summer",
+              "imgs":"treasureflower.jpg"
             },
             {
               "name": "Bellis perennis 'Pomponette' (English Daisy)",
               "sun": 4,
               "water": 2,
               "instructions": "Plant 15-20cm apart in either Chalk, Clay, Loam, Sand soil. Low maintenance",
-              "time": "Spring, Early Summer"
+              "time": "Spring, Early Summer",
+              "imgs":"englishdaisy.jpg"
             },
             {
               "name": "Angelonia 'Angelface Blue' (Summer Snapdragon)",
               "sun": 5,
               "water": 1,
               "instructions": "Plant 25-37cm apart in either Chalk, Clay, Loam, Sand soil. Low maintenance",
-              "time": "Late Spring, Summer, Fall"
+              "time": "Late Spring, Summer, Fall",
+              "imgs":"summersnapdragon.jpg"
             },
             {
               "name": "Salvia horminum 'Pink Sunday' Annual Sage",
               "sun": 4,
               "water": 2,
               "instructions": "Plant 22-30cm apart in either Chalk, Loam, Sand soil. Low maintenance",
-              "time": "Summer, Fall"
+              "time": "Summer, Fall",
+              "imgs":"pinksunday.jpg"
             }
           ]
         }
