@@ -36,7 +36,7 @@
         {
           "members": [
             {
-              "name": "cucumber",
+              "name": "Cucumber",
               "sun": 4,
               "water": 2,
               "instructions": "12 inches apart pH",
@@ -57,7 +57,7 @@
         {
           "members": [
             {
-              "name": "mint",
+              "name": "Mint",
               "sun": 4,
               "water": 3,
               "instructions": "18-24 in apart pH of 6-7",
@@ -65,7 +65,7 @@
               "imgs":"mint.jpg"
             },
             {
-              "name": "oregano",
+              "name": "Oregano",
               "sun": 4,
               "water": 1,
               "instructions": "8-10 inches apart pH 6.5 -7",
@@ -73,7 +73,7 @@
               "imgs":"oregano.jpg"
             },
             {
-              "name": "basil",
+              "name": "Basil",
               "sun": 5,
               "water": 2,
               "instructions": "12 inches apart soil pH 6-7",
@@ -81,7 +81,7 @@
               "imgs": "basil.jpg"
             },
             {
-              "name": "parsley",
+              "name": "Parsley",
               "sun": 5,
               "water": 1,
               "instructions": "5.5-6.7 pH 6-8 inch apart",
@@ -89,7 +89,7 @@
               "imgs":"parsley.jpg"
             },
             {
-              "name": "coriander",
+              "name": "Coriander",
               "sun": 2,
               "water": 2,
               "instructions": "pH 6.5-7.5",

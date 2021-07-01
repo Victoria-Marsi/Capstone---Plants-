@@ -1,7 +1,5 @@
 var allPlants = []; //empty array
 function onLoad(){
-const header = document.querySelector('header');
-const section = document.querySelector('section');
 
 var url = 'https://raw.githubusercontent.com/em-beth/JSON-FILE/main/data.json';
 var request = new XMLHttpRequest();
@@ -116,6 +114,7 @@ function makeDisplay(array){
   var container = document.querySelector('.plantContainer');
   for (let i = 0; i < array.length; i++){
     if(array[i].show === true){
+      console.log(array[i].show);
     template+=`<div class="${array[i].name}">
     <img class="${array[i].name}" src="${array[i].imgs}">
     <p>${array[i].name}</p>
