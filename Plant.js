@@ -13,6 +13,7 @@ class Plant{
     this.instructions = instructions; //long string
     this.time = time; //string
     this.desc;
+    this.show = false;
     this.subtype = subtype;
     this.imgs; // picture or array of pictures
   }
@@ -58,5 +59,9 @@ class Plant{
 
   setDesc(text){
     text = desc;
+  }
+
+  setShow(boolean){
+    boolean = show;
   }
 }

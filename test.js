@@ -9,13 +9,13 @@ request.responseType = 'json';
 request.send();
 
 var allPlants = []; //empty array
-var sorted = [];
 
 request.onload = function() {
   const plants = request.response;
   console.log(plants);
   makePlants(plants);
   selectionSort(allPlants);
+  makeDisplay(allPlants[1]);
 }
 
 function makePlants(json){
@@ -104,4 +104,19 @@ function selectionSort(array){
   }
   console.log(array);
 }
+
+//make display
+//only make displays for boxes that currently are being shown
+//make separate function to control whether or not a box is shown
+//can only attach to a div
+
+function makeDisplay(object){
+    var name = header.createElement('h2');
+    name.innerText = `${object.name}`;
+
+}
+  function showPlant(object){
+    object.setShow(true);
+  }
+
 }
