@@ -15,7 +15,7 @@ request.onload = function() {
   console.log(plants);
   makePlants(plants);
   selectionSort(allPlants);
-  makeDisplay(allPlants[1]);
+  makeDisplay(allPlants);
 }
 
 function makePlants(json){
@@ -46,8 +46,11 @@ function makePlants(json){
             let water = tempObject['water']; //number
             let instructions = tempObject['instructions']; //string
             let time = tempObject['time']; //string
+            let imgs = tempObject['imgs'];
+            console.log(imgs);
             //if name is a certain thing it makes a certain constructor
-            var currentPlant = contsructorUtil(subtypeName, name, sun, water, instructions, time); //makes the object and stores it
+            var currentPlant = contsructorUtil(subtypeName, name, sun, water, instructions, time, imgs); //makes the object and stores it
+            currentPlant.imgs = imgs;
             allPlants.push(currentPlant);
             //console.log(subtypeName);
            // console.log(currentPlant);
@@ -59,27 +62,27 @@ function makePlants(json){
   console.log(allPlants);
 }
 
-function contsructorUtil(subtype, name,sun, water, instructions, time){
+function contsructorUtil(subtype, name,sun, water, instructions, time, imgs){
  if (subtype === "Folliage"){
-  return new Folliage(name, sun, water, instructions, time);
+  return new Folliage(name, sun, water, instructions, time, imgs);
  }
  if (subtype === "Fruit"){
-   return new Fruit(name, sun, water, instructions, time);
+   return new Fruit(name, sun, water, instructions, time, imgs);
  }
  if (subtype === "Herb"){
-   return new Herb(name, sun, water, instructions, time);
+   return new Herb(name, sun, water, instructions, time, imgs);
  }
  if (subtype === "Indoor Flower"){
-   return new IndoorFlower(name, sun, water, instructions, time);
+   return new IndoorFlower(name, sun, water, instructions, time, imgs);
  }
  if (subtype === "Outdoor Flower"){
-   return new OutdoorFlower(name, sun, water, instructions, time);
+   return new OutdoorFlower(name, sun, water, instructions, time, imgs);
  }
  if (subtype === "Succulent"){
-   return new Succulent(name, sun, water, instructions, time);
+   return new Succulent(name, sun, water, instructions, time, imgs);
  }
  if (subtype === "Vegetable"){
-   return new Vegetable(name, sun, water, instructions, time);
+   return new Vegetable(name, sun, water, instructions, time, imgs);
  }
  else{
    console.log("something went wrong");
@@ -105,18 +108,35 @@ function selectionSort(array){
   console.log(array);
 }
 
-//make display
-//only make displays for boxes that currently are being shown
-//make separate function to control whether or not a box is shown
-//can only attach to a div
+function makeDisplay(array){
+  var template = "";
+  var container = document.querySelector('.plantContainer');
+  for (let i = 0; i < array.length; i++){
+    if(array[i]){
+    template+=`<div class="${array[i].name}">
+    <img class="${array[i].name}" src="${array[i].imgs}">
+    <p>${array[i].name}</p>
+    <p class = hidden> "${array[i].sun }${array[i].water }${array[i].instructions } ${array[i].time}"</p>
+  </div>`
+  }
+}
+  container.innerHTML = template;
+  console.log(template);
+}
 
-function makeDisplay(object){
-    var name = header.createElement('h2');
-    name.innerText = `${object.name}`;
+var container = document.querySelector('.plantContainer');
+container.addEventListener('click', function(event){
+ // console.log(event);
+  if(event.target.localName === 'img'){
+    var className;
+    className = event.target.className;
+    console.log(className);
+    const match = allPlants.find(element => element.name === className);
+    console.log(match);
+  }
+});
+
+function showInfo(object){
 
 }
-  function showPlant(object){
-    object.setShow(true);
-  }
-
 }

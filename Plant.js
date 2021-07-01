@@ -5,7 +5,7 @@
 
 class Plant{
 
-  constructor(subtype,type, name, sun, water, instructions, time){
+  constructor(subtype, type, name, sun, water, instructions, time, imgs){
     this.type = type; //string
     this.name = name; //string
     this.sun = sun; //number
@@ -15,7 +15,7 @@ class Plant{
     this.desc;
     this.show = false;
     this.subtype = subtype;
-    this.imgs; // picture or array of pictures
+    this.imgs = imgs; // picture or array of pictures
   }
 
   //getters
@@ -63,5 +63,8 @@ class Plant{
 
   setShow(boolean){
     boolean = show;
+  }
+  setImg(img){
+    imgs = img;
   }
 }
