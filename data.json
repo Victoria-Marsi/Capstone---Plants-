@@ -61,35 +61,40 @@
               "sun": 4,
               "water": 3,
               "instructions": "18-24 in apart pH of 6-7",
-              "time": "spring"
+              "time": "spring",
+              "imgs":
             },
             {
               "name": "oregano",
               "sun": 4,
               "water": 1,
               "instructions": "8-10 inches apart pH 6.5 -7",
-              "time": "spring"
+              "time": "spring",
+              "imgs":
             },
             {
               "name": "basil",
               "sun": 5,
               "water": 2,
               "instructions": "12 inches apart soil pH 6-7",
-              "time": "spring/summer"
+              "time": "spring/summer",
+              "imgs": "basil.jpg"
             },
             {
               "name": "parsley",
               "sun": 5,
               "water": 1,
               "instructions": "5.5-6.7 pH 6-8 inch apart",
-              "time": "spring"
+              "time": "spring",
+              "imgs":
             },
             {
               "name": "coriander",
               "sun": 2,
               "water": 2,
               "instructions": "pH 6.5-7.5",
-              "time": "spring"
+              "time": "spring",
+              "imgs":
             }
           ]
         },
@@ -216,105 +221,120 @@
               "sun": 4,
               "water": 2,
               "time": "Year Round",
-              "instructions": "plant 90cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 90cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"blushingbeauty.jpg"
             },
             {
               "name": "Agave 'Blue Flame'",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 120cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 120cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"agaveblueflame.jpg"
             },
             {
               "name": "Aloe nobilis (Golden Toothed Aloe)",
               "sun": 5,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 45cm  apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 45cm  apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"goldentoothedaloe.jpg"
             },
             {
               "name": "Echeveria 'Cassyz Winter'",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 20cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 20cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"cassyzwinter.jpg"
             },
             {
               "name": "Echeveria 'Frank Reinelt'",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 20cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 20cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"frankreinelt.jpg"
             },
             {
               "name": "Echeveria 'Tippy'",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 30cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 30cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"tippy.jpg"
             },
             {
               "name": "Echeveria elegans",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 30cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 30cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"elegans.jpg"
             },
             {
               "name": "Echeveria secunda",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 15cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 15cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"secunda.jpg"
             },
             {
               "name": "Agave 'Kishp Kan' Butterfly Agave",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 90cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 90cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs": "butterflyagave.jpg"
             },
             {
               "name": "Agave victoriae-reginae (Queen Victoria Century Plant)",
               "sun": 5,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"queenvictoria.jpg"
             },
             {
               "name": "Aloe aristata (Torch Plant)",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 20-30cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 20-30cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"torch.jpg"
             },
             {
               "name": "Agave nickelsiae (King of the Agaves)",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 90cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 90cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"kingoftheagaves.jpg"
             },
             {
               "name": "Aloe brevifolia (short-leaf aloe)",
               "sun": 5,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"shortleafaloe.jpg"
             },
             {
               "name": "Aloe distans (Jewel Aloe)",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 40cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 40cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"jewelaloe.jpg"
             },
             {
               "name": "Aloe dorotheae ",
               "sun": 5,
               "water": 1,
               "time": "Year Round",
-              "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance"
+              "instructions": "plant 60cm apart in either Loam, Sand soil. Low Maintenance",
+              "imgs":"aloedorothease.jpg"
             }
           ]
         },
@@ -326,105 +346,120 @@
               "sun": 3,
               "water": 1,
               "time": "Summer",
-              "instructions": "Plant 15cm apart in potting soil."
+              "instructions": "Plant 15cm apart in potting soil.",
+              "imgs": "hoyacarnosa.jpg"
             },
             {
               "name": "Poinsettia",
               "sun": 4,
               "water": 2,
               "time": "Winter",
-              "instructions": "Plant 23cm apart in loamy, well-drained soil."
+              "instructions": "Plant 23cm apart in loamy, well-drained soil.",
+              "imgs": "poinsettia.jpg"
             },
             {
               "name": "Hydrangeas",
               "sun": 4,
               "water": 1,
               "time": "Summer, Fall",
-              "instructions": "Plant 18 cm apart in potting soil."
+              "instructions": "Plant 18 cm apart in potting soil.",
+              "imgs": "hydrangeas.jpg"
             },
             {
               "name": "Amaryllis Bulbs- Royal Velvet",
               "sun": 4,
               "water": 2,
               "time": "Fall",
-              "instructions": "Plant 30 cm apart in potting soil."
+              "instructions": "Plant 30 cm apart in potting soil.",
+              "imgs": "royalvelvet.jpg"
             },
             {
               "name": "Orchids",
               "sun": 5,
               "water": 2,
               "time": "Year Round",
-              "instructions": "Plant 21 cm apart in potting soil."
+              "instructions": "Plant 21 cm apart in potting soil.",
+              "imgs": "orchids.jpg"
             },
             {
               "name": "Peace Lilies ",
               "sun": 3,
               "water": 2,
               "time": "Spring",
-              "instructions": "Plant 12 cm apart in potting soil."
+              "instructions": "Plant 12 cm apart in potting soil.",
+              "imgs": "peacelilies.jpg"
             },
             {
               "name": "Begonias ",
               "sun": 4,
               "water": 1,
               "time": "Summer into fall",
-              "instructions": "Plant 21 cm apart in potting soil."
+              "instructions": "Plant 21 cm apart in potting soil.",
+              "imgs": "begonias.jpg"
             },
             {
               "name": "Anthurnium ",
               "sun": 5,
               "water": 2,
               "time": "Year Round",
-              "instructions": "Plant 23 cm apart in potting soil."
+              "instructions": "Plant 23 cm apart in potting soil.",
+              "imgs": "anthurnium.jpg"
             },
             {
               "name": "Hibiscus ",
               "sun": 4,
               "water": 2,
               "time": "Spring, Summer, Fall",
-              "instructions": "Plant 31 cm apart in potting soil."
+              "instructions": "Plant 31 cm apart in potting soil.",
+              "imgs": "hibiscus.jpg"
             },
             {
               "name": "Bromeliad ",
               "sun": 5,
               "water": 2,
               "time": "Year Round",
-              "instructions": "Plant 12 cm apart in potting soil."
+              "instructions": "Plant 12 cm apart in potting soil.",
+              "imgs": "bromeliad.jpg"
             },
             {
               "name": "Kalanchoe",
               "sun": 4,
               "water": 1,
               "time": "Year Round",
-              "instructions": "Plant 32 cm apart in potting soil."
+              "instructions": "Plant 32 cm apart in potting soil.",
+              "imgs": "kalanchoe.jpg"
             },
             {
               "name": "Jasmine ",
               "sun": 5,
               "water": 2,
               "time": "Fall",
-              "instructions": "Plant 21 cm apart in porous. "
+              "instructions": "Plant 21 cm apart in porous. ",
+              "imgs": "jasmine.jpg"
             },
             {
               "name": "Angel Wing Begonia",
               "sun": 2,
               "water": 1,
               "time": "Spring, Early Summer",
-              "instructions": "Plant 32 cm apart in potting soil."
+              "instructions": "Plant 32 cm apart in potting soil.",
+              "imgs": "angelwingbegonia.jpg"
             },
             {
               "name": "Cyclemen",
               "sun": 3,
               "water": 2,
               "time": "Summer",
-              "instructions": "Plant 24 cm apart in potting soil."
+              "instructions": "Plant 24 cm apart in potting soil.",
+              "imgs": "cyclemen.jpg"
             },
             {
               "name": "Cape primrose ",
               "sun": 3,
               "water": 1,
               "time": "Year Round",
-              "instructions": "Plant 13 cm apart in potting soil."
+              "instructions": "Plant 13 cm apart in potting soil.",
+              "imgs": "capeprimrose.jpg"
             }
            ]
         }
