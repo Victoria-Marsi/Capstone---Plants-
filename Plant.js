@@ -62,7 +62,7 @@ class Plant{
   }
 
   setShow(boolean){
-    boolean = show;
+    show = boolean;
   }
   setImg(img){
     imgs = img;
