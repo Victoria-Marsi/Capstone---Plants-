@@ -6,7 +6,10 @@ searchForm.addEventListener('submit', function(event) {
     // alert("You are looking for " + searchInput)
     if(searchInput == 'name'){
         var className;
+<<<<<<< Updated upstream
         //className = event.target.#searchform;
+=======
+>>>>>>> Stashed changes
         console.log(className);
         const match = allPlants.find(element => element.name === className);
         console.log(match);
